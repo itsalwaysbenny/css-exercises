@@ -23,6 +23,6 @@ button {
 button:hover {
   font-size: 150%;
   /*I did not change the cursor type*/
-  cursor: pointer
+  cursor: pointer;
 }
 

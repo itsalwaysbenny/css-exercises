@@ -13,7 +13,7 @@
 }
 
 .dropdown-menu {
-  position: relative;
+  position: relative;  
 }
 
 button {
@@ -30,8 +30,28 @@ ul {
   width: 160px;
   list-style: none;
   text-align: center;
+  /*struggled with this part, getting the menu to slide out
+  I could make the text transition but no background*/
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height ease-in-out 1s;
 }
 
 li {
   padding: 16px;
+}
+
+button:hover {
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+ul li:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.dropdown-menu:hover ul {
+  max-height: 200px;
+  transition: max-height ease-in-out 1s;
 }
