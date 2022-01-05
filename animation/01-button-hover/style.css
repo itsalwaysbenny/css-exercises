@@ -17,4 +17,12 @@ button {
   color: black;
   font-size: small;
   text-align: center;
+  transition: /*I did not add font size here but it seemed to work*/ font-size 1.0s ease-in-out;
 }
+
+button:hover {
+  font-size: 150%;
+  /*I did not change the cursor type*/
+  cursor: pointer
+}
+
