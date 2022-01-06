@@ -34,4 +34,5 @@ When you're done, keep this repo handy! Being able to build a custom modal is a 
 - When the popup modal is hidden your mouse should not change to the pointer if hovered over an invisible Close button
 //Cursor changes when popup not visible
 
-//I have completed the steps so far and left comments under what still needs to be improved
+//I completed steps 1,2,3,4 but struggled with the remaining parts.
+I checked the solutions and now I feel bad and stupid
