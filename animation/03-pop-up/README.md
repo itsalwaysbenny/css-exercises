@@ -20,9 +20,18 @@ When you're done, keep this repo handy! Being able to build a custom modal is a 
 ### Self Check
 
 - The mouse cursor changes to a pointer over the buttons
+//mouse pointer changes over button but also over white space when modal is closed
 - A drop shadow gets added to the buttons when the mouse hovers over them
+//shadow appears around buttons when hovering
 - The popup modal appears when the Open button is clicked
+//Popup opens but below, does not move up to cover open button
 - The background fades to black with 40% opacity when the popup is opened
+//Background is black but does not fade
 - The popup smoothly slides up to cover the existing Open button
+//Popup does not slide
 - When the Close button is clicked the popup modal slides back down and gradually disappears
+//Popup does not slide
 - When the popup modal is hidden your mouse should not change to the pointer if hovered over an invisible Close button
+//Cursor changes when popup not visible
+
+//I have completed the steps so far and left comments under what still needs to be improved
