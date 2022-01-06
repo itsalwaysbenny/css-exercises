@@ -26,7 +26,7 @@ When you're done, keep this repo handy! Being able to build a custom modal is a 
 - The popup modal appears when the Open button is clicked
 //Popup opens but below, does not move up to cover open button
 - The background fades to black with 40% opacity when the popup is opened
-//Background is black but does not fade
+//Background now fades in/out when opening/closing modal
 - The popup smoothly slides up to cover the existing Open button
 //Popup does not slide
 - When the Close button is clicked the popup modal slides back down and gradually disappears
